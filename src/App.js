@@ -37,10 +37,7 @@ function App() {
 					</p>
 				</header>
 
-				<section
-					
-					className="min-h-screen flex justify-center px-8 py-16 bg-gray-900 text-center w-full"
-				>
+				<section className="min-h-screen flex justify-center px-8 py-16 bg-gray-900 text-center w-full">
 					<Parallax speed={-10}>
 						<div className="w-full h-screen bg-black bg-opacity-60 absolute  inset-0">
 							<img
@@ -73,10 +70,7 @@ function App() {
 					</Parallax>
 				</section>
 
-				<section
-					
-					className="min-h-screen flex items-center justify-center  py-16 bg-gray-800 text-center"
-				>
+				<section className="min-h-screen flex items-center justify-center  py-16 bg-gray-800 text-center">
 					<Parallax speed={5}>
 						<div className=" w-full h-screen bg-black bg-opacity-60 absolute inset-0">
 							<img
@@ -105,10 +99,7 @@ function App() {
 					</Parallax>
 				</section>
 
-				<section
-					
-					className="min-h-screen flex items-center justify-center px-8 py-16 bg-gray-700 text-center"
-				>
+				<section className="min-h-screen flex items-center justify-center px-8 py-16 bg-gray-700 text-center">
 					<Parallax speed={-5}>
 						<div className="w-full h-screen bg-black bg-opacity-60 absolute  inset-0">
 							<img
@@ -122,7 +113,7 @@ function App() {
 							<h2 className="text-4xl md:text-5xl font-bold mb-4">Buy</h2>
 							<div className="py-14 w-screen">
 								<a
-									href="https://pump.fun/WeThePeopleCoin"
+									href="/#"
 									target="_blank"
 									rel="noopener noreferrer"
 									className="text-white hover:text-blue-700 border-white border rounded-full px-5 py-2 mr-2 hover:border-blue-500 shake"
@@ -130,21 +121,14 @@ function App() {
 									Pump.fun
 								</a>
 								<a
-									href="https://raydium/WeThePeopleCoin"
+									href="/#"
 									target="_blank"
 									rel="noopener noreferrer"
 									className="text-white hover:text-blue-700 border-white border rounded-full px-5 py-2 mr-2 hover:border-blue-500 "
 								>
 									Raydium
 								</a>
-								{/* <a
-								href="https://discord.gg/WeThePeopleCoin"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="text-blue-500 hover:text-blue-700 border-white border rounded-full px-5 py-2 mr-2 hover:border-blue-500 "
-							>
-								Discord
-							</a> */}
+								
 							</div>
 						</div>
 					</Parallax>
@@ -168,7 +152,7 @@ function App() {
 							</h2>
 							<div className="py-14 w-screen">
 								<a
-									href="https://twitter.com/WeThePeopleCoin"
+									href="https://x.com/we__thepeople_"
 									target="_blank"
 									rel="noopener noreferrer"
 									className="text-white hover:text-blue-700 border-white border rounded-full px-5 py-2 mr-2 hover:border-blue-500 animate-pulse duration-700 delay-75"
@@ -176,21 +160,14 @@ function App() {
 									Twitter
 								</a>
 								<a
-									href="https://t.me/WeThePeopleCoin"
+									href="https://t.me/we_thepeople_founders"
 									target="_blank"
 									rel="noopener noreferrer"
 									className="text-white hover:text-blue-700 border-white border rounded-full px-5 py-2 mr-2 hover:border-blue-500 animate-pulse duration-700 delay-500"
 								>
 									Telegram
 								</a>
-								{/* <a
-								href="https://discord.gg/WeThePeopleCoin"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="text-blue-500 hover:text-blue-700 border-white border rounded-full px-5 py-2 mr-2 hover:border-blue-500 "
-							>
-								Discord
-							</a> */}
+							
 							</div>
 						</div>
 					</Parallax>
