@@ -25,7 +25,10 @@ function App() {
 					<div className="bg-black bg-opacity-60 absolute inset-0"></div>
 				</div>
 				<header data-aos="fade-in" className="relative z-10 text-center p-8">
-					<h1 className="text-6xl font-extrabold text-yellow-500">
+					<h1
+						data-aos="fade-right"
+						className="text-6xl font-extrabold text-yellow-500"
+					>
 						We <span className="text-red-700">the</span> People
 					</h1>
 					<p>
@@ -34,7 +37,10 @@ function App() {
 					</p>
 				</header>
 
-				<section className="min-h-screen flex justify-center px-8 py-16 bg-gray-900 text-center w-full">
+				<section
+					
+					className="min-h-screen flex justify-center px-8 py-16 bg-gray-900 text-center w-full"
+				>
 					<Parallax speed={-10}>
 						<div className="w-full h-screen bg-black bg-opacity-60 absolute  inset-0">
 							<img
@@ -45,7 +51,10 @@ function App() {
 							<div className="bg-black h-screen w-full bg-opacity-60 absolute inset-0"></div>
 						</div>
 						<div className="relative flex flex-col justify-center py-2 h-screen w-screen items-center">
-							<h2 className="text-5xl md:text-6xl font-bold mb-4">
+							<h2
+								data-aos="zoom-out"
+								className="text-5xl md:text-6xl font-bold mb-4"
+							>
 								Our Mission
 							</h2>
 							<p className="max-w-4xl text-lg md:text-2xl mb-8">
@@ -64,7 +73,10 @@ function App() {
 					</Parallax>
 				</section>
 
-				<section className="min-h-screen flex items-center justify-center  py-16 bg-gray-800 text-center">
+				<section
+					
+					className="min-h-screen flex items-center justify-center  py-16 bg-gray-800 text-center"
+				>
 					<Parallax speed={5}>
 						<div className=" w-full h-screen bg-black bg-opacity-60 absolute inset-0">
 							<img
@@ -75,7 +87,10 @@ function App() {
 							<div className="bg-black h-screen w-full bg-opacity-60 absolute inset-0"></div>
 						</div>
 						<div className="relative flex flex-col justify-center py-2 h-screen w-screen items-center">
-							<h2 className="text-5xl md:text-6xl font-bold mb-4">
+							<h2
+								data-aos="zoom-in"
+								className="text-5xl md:text-6xl font-bold mb-4"
+							>
 								Tokenomics 🗣️
 							</h2>
 							<p className=" text-lg mb-8 px-8 max-w-4xl ">
@@ -90,7 +105,10 @@ function App() {
 					</Parallax>
 				</section>
 
-				<section className="min-h-screen flex items-center justify-center px-8 py-16 bg-gray-700 text-center">
+				<section
+					
+					className="min-h-screen flex items-center justify-center px-8 py-16 bg-gray-700 text-center"
+				>
 					<Parallax speed={-5}>
 						<div className="w-full h-screen bg-black bg-opacity-60 absolute  inset-0">
 							<img
@@ -142,7 +160,12 @@ function App() {
 							<div className="bg-black h-screen w-full bg-opacity-60 absolute inset-0"></div>
 						</div>
 						<div className="relative flex flex-col justify-center py-2 h-screen w-full">
-							<h2 className="text-5xl md:text-6xl font-bold mb-4">Socials</h2>
+							<h2
+								data-aos="fade-in zoom-out"
+								className="text-5xl md:text-6xl font-bold mb-4"
+							>
+								Socials
+							</h2>
 							<div className="py-14 w-screen">
 								<a
 									href="https://twitter.com/WeThePeopleCoin"
